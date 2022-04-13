@@ -30,8 +30,35 @@ header {
     margin: 0;
 }
 
+.hero {
+    padding: 100px;
+}
+
+.hero-main-text {
+    font-size: 50px;
+    margin: 0;
+}
+
 .hero-signup {
     max-width: 400px;
+}
+
+.image-wrapper {
+    background-color: rgb(114, 111, 126);
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 4px;
+    font-size: 15px;
 }
 
 ul {
@@ -47,8 +74,30 @@ li {
     margin: 10px;
 }
 
+.random {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+}
+
 .random-info {
     color: #1F2937;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.button-info {
+    max-width: 150px;
+}
+
+.random-info-button {
+    width: 150px;
+    height: 150px;
+    border: solid;
+    border-radius: 8px;
+    border-color: #3882F6;
+    background-color: white;
 }
 
 .inspiring-quote {
@@ -56,6 +105,10 @@ li {
     color: #1F2937;
 }
 
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
 footer {
     text-align: center;
     padding: 50px;
