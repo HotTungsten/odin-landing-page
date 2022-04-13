@@ -1,5 +1,9 @@
-* {
+body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
 }
 
 header,
@@ -7,6 +11,27 @@ header,
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+header,
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-signup {
+    max-width: 400px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 10px;
 }
 
 .random-info {
