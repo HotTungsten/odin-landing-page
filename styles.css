@@ -52,6 +52,11 @@ header {
     align-items: center;
 }
 
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .hero-button {
     background-color: #3882F6;
     border: none;
@@ -103,12 +108,51 @@ li {
 .inspiring-quote {
     background-color: #E5E7EB;
     color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
 }
 
-.hero{
-    display: flex;
-    justify-content: space-evenly;
+.quote-text {
+    font-size: 30px;
+    max-width: 800px;
 }
+
+.quote-name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action {
+    margin: 100px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 30px 80px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-head,
+.action-text {
+    margin: 0;
+}
+
+.action-button {
+    width: 120px;
+    height: 30px;
+    margin-top: auto;
+    color: #E5E7EB;
+    background-color:#3882F6; 
+    border-color: #E5E7EB;
+    border: 2px solid;
+    border-radius: 8px;
+}
+
 footer {
     text-align: center;
     padding: 50px;
